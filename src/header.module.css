@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Tilt+Prism&display=swap');
+
+html {
+    box-sizing: content-box;
+}
+
+html * {
+    box-sizing: inherit;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    padding: 22px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    z-index: 2;
+    position: relative;
+}
+
+.header input {
+    outline: none;
+    border: solid 1px #eee;
+    padding: 10px 5px;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-ser;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    background-color: #eee;
+}
+
+.center {
+    column-count: 3;
+    width: 1200px;
+}
